@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+* {
+  box-sizing: border-box;
+  transition: all 0.15s ease-in-out;
+}
+html {
+  display: flex;
+  justify-content: center;
+}
+a {
+  cursor: pointer;
+}
+main {
+  padding: 20px 0 100px;
+}
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+section:last-child {
+  margin-bottom: 0;
+}
+img {
+  width: 350px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background: #fafafa;
+  width: 350px;
+  max-width: 95%;
+  font-family: 'Cabin', sans-serif;
+}
+body section {
+  background: #fff;
+  position: relative;
+  border-radius: 2px;
+}
+body section .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+body section .header .param {
+  cursor: pointer;
+  border-radius: 4px;
+}
+body section .header .param svg:hover {
+  background: #8d8d8d;
+  border-radius: 3px;
+  padding: 1px;
+}
+body section .img-container img {
+  width: 100%;
+}
+body section .toolbar {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+body section .toolbar .signet {
+  margin-left: auto;
+}
+body section .like-checkbox {
+  display: none;
+}
+body .description {
+  font-size: 16px;
+}
+body .description strong {
+  font-weight: bold;
+  font-size: 15px;
+}
+.check-like {
+  animation-duration: 0.2s;
+  animation-name: like;
+  fill: #1f81ba;
+}
+.check-path {
+  fill: #1f81ba;
+  background: #1f81ba;
+}
+@keyframes like {
+  from {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.4);
+  }
+  to {
+    transform: scale(1);
+  }
+}
