@@ -1,35 +1,35 @@
 const posts = [
   {
     imgUrl: 'https://i.ibb.co/0p5691d/t-l-chargement.jpg',
-    likes: 5265,
+    likes: 1,
     title: 'Clement',
     description: `Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.`,
   },
   {
     imgUrl:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_nneHCW0dt1uH3hYjFuN_tHhmnBO4vGvUmQ0wKqp-IX4RkYfnMewXfPVCaFZk14XA8kQ&usqp=CAU',
-    likes: 421,
+    likes: 9,
     title: 'Clement',
     description: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.`,
   },
   {
     imgUrl:
       'https://www.apple.com/v/macbook-pro-13/m/images/overview/apple_silicon__b9y4fltj0os2_large_2x.jpg',
-    likes: 5232,
+    likes: 46,
     title: 'Clement',
     description: `But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.`,
   },
   {
     imgUrl:
       'https://www.apple.com/v/environment/q/images/overview/hero_mac_mini__fw15u2v1lauu_large.png',
-    likes: 11520,
+    likes: 112,
     title: 'Clement',
     description: `Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.`,
   },
   {
     imgUrl:
       'https://asset.kompas.com/crops/9fjF5pzqYgZzsOZopAbRlqsEamM=/0x0:3464x2309/750x500/data/photo/2022/09/09/631ae3f796604.jpg',
-    likes: 8241,
+    likes: 253,
     title: 'Clement',
     description: `One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought.`,
   },
